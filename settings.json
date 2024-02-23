@@ -1,0 +1,44 @@
+{
+  "autosave": "on_window_change",
+  "confirm_quit": true,
+  "cursor_blink": true,
+  "format_on_save": "on",
+  "hover_popover_enabled": true,
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "show_copilot_suggestions": true,
+  "lsp": {
+    "typescript-language-server": {
+      "initialization_options": {
+        "preferences": {
+          "includeInlayParameterNameHints": "all",
+          "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+          "includeInlayFunctionParameterTypeHints": true,
+          "includeInlayVariableTypeHints": true,
+          "includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+          "includeInlayPropertyDeclarationTypeHints": true,
+          "includeInlayFunctionLikeReturnTypeHints": true,
+          "includeInlayEnumMemberValueHints": true
+        }
+      }
+    }
+  },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "env": {},
+    "font_family": null,
+    "font_features": null,
+    "font_size": null,
+    "option_as_meta": false,
+    "shell": {},
+    "working_directory": "current_project_directory"
+  },
+  "font_size": 5,
+  "git_status": true
+}
